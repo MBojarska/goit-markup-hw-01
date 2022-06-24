@@ -1,0 +1,131 @@
+<!--Walidator sugeruje, że podział na <section> jest niepotrzebny.-->
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
+  </head>
+
+  <body>
+    <header>
+      <!--Logo w <header> i stopce to link z tekstem, a nie obraz.-->
+      <a href="/">WebStudio</a>
+      <nav>
+        <!-- Nawigacja do innych sekcji -->
+        <ul>
+          <li><a href="/agencja">Agencja</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <!-- Link do adresu e-mail  -->
+      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <!-- Link do numeru telefonu -->
+      <a href="tel:+48111111111">+48 111 111 111</a>
+      <div>
+        <h1>Efektywne rozwiązania dla waszego biznesu</h1>
+        <button type="button">zamów usługę</button>
+      </div>
+    </header>
+    <!--W końcu tu tabela czy lista?-->
+    <section>
+      <table>
+        <tr>
+          <th>Lorem, ipsum.</th>
+          <th>Lorem, ipsum.</th>
+          <th>Lorem, ipsum.</th>
+          <th>Lorem, ipsum.</th>
+        </tr>
+        <tr>
+          <td>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consectetur fuga
+            iure quod ipsum, voluptates neque inventore!
+          </td>
+          <td>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consectetur fuga
+            iure quod ipsum, voluptates neque inventore!
+          </td>
+          <td>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consectetur fuga
+            iure quod ipsum, voluptates neque inventore!
+          </td>
+          <td>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consectetur fuga
+            iure quod ipsum, voluptates neque inventore!
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2 id="portfolio">Czym się zajmujemy?</h2>
+      <ul>
+        <li>
+          <img src="/images/taskbox1sq.jpg" alt="Pisanie na klawiaturze" width="370" height="294" />
+        </li>
+        <li>
+          <img
+            src="/images/taskbox2sq.jpg"
+            alt="Strony na telefon i komputer"
+            width="370"
+            height="294"
+          />
+        </li>
+        <li>
+          <img src="/images/taskbox3sq.jpg" alt="Kolorowe tablety" width="370" height="294" />
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="agencja">Nasz zespół</h2>
+      <ul>
+        <li>
+          <figure>
+            <img src="/images/johndoe1sq.jpg" alt="Zdjęcie Johna Doe 1" width="260" height="270" />
+            <figcaption>
+              <h4>John Doe</h4>
+              <p>Product Designer</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="/images/janedoesq.jpg" alt="Zdjęcie Jane Doe" width="260" height="270" />
+            <figcaption>
+              <h4>Jane Doe</h4>
+              <p>Frontend Developer</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="/images/johndoe2sq.jpg" alt="Zdjęcie Johna Doe 2" width="260" height="270" />
+            <figcaption>
+              <h4>John Doe</h4>
+              <p>Marketing</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="/images/johndoe3sq.jpg" alt="Zdjęcie Johna Doe 3" width="260" height="270" />
+            <figcaption>
+              <h4>John Doe</h4>
+              <p>UI Designer</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <footer>
+        <a href="/">WebStudio</a>
+        <address id="kontakt">
+            m. Warszawa, Aleje Jerozolimskie 21<br />
+            info@example.com<br />
+            +48 111 111 111<br />
+        </address>
+    </footer>
+  </body>
+
+</html>
